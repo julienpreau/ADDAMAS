@@ -1,16 +1,16 @@
 <?php
-//src/Controller/ControllerAccueil.php
+//src/Controller/ADDAMASControllerHome.php
 namespace App\Controller;
 
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
-class ControllerAccueil
+class ADDAMASControllerHome
 {
     /**
-     * @Route("/accueil")
+     * @Route("/")
      */
-    public function showAction()
+    public function index()
     {
         return new Response('Bienvenue sur le site de la société ADDAMAS');
     }
