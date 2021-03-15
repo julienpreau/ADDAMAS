@@ -2,16 +2,16 @@
 //src/Controller/ADDAMASControllerHome.php
 namespace App\Controller;
 
-use Symfony\Component\HttpFoundation\Response;
+use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\Routing\Annotation\Route;
 
-class ADDAMASControllerHome
+class ADDAMASControllerHome extends Controller
 {
     /**
      * @Route("/")
      */
     public function index()
     {
-        return new Response('Bienvenue sur le site de la société ADDAMAS');
+        return $this->render('home/home.html.twig');
     }
 }
