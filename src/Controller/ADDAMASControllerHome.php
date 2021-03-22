@@ -16,7 +16,7 @@ class ADDAMASControllerHome extends Controller
     }
 
     /**
-     * @Route("historique")
+     * @Route("/historique")
      */
     public function historique()
     {
@@ -24,7 +24,7 @@ class ADDAMASControllerHome extends Controller
     }
 
     /**
-     * @Route("produits")
+     * @Route("/produits")
      */
     public function produits()
     {
@@ -32,7 +32,7 @@ class ADDAMASControllerHome extends Controller
     }
 
     /**
-     * @Route("espace")
+     * @Route("/espace")
      */
     public function espace()
     {
